@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Enhancer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Music Enhancer</h1>
+        
+        <!-- Music Upload -->
+        <input type="file" id="musicUpload" accept="audio/*">
+        
+        <!-- Music Controls -->
+        <audio id="musicPlayer" controls></audio>
+
+        <!-- Sound Enhancement Buttons -->
+        <div class="buttons">
+            <button id="4dSound">4D Sound</button>
+            <button id="6dSound">6D Sound</button>
+            <button id="8dSound">8D Sound</button>
+            <button id="surroundSound">Surround Sound</button>
+            <button id="highBass">High Bass</button>
+            <button id="resetAll">Reset All Effects</button>
+        </div>
+
+        <!-- Download Button -->
+        <button id="downloadMusic">Download Music with Effects</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

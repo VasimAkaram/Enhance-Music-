@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #2be9ec;
+}
+
+.container {
+    text-align: center;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+button {
+    margin: 5px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    background-color: rgb(178, 241, 101);
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: #282ee8;
+    color: white;
+}
+
+input[type="range"] {
+    width: 200px;
+    margin-top: 10px;
+}
